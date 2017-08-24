@@ -1,0 +1,150 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Foundation | Welcome</title>
+    <link rel="stylesheet" href="css/foundation.min.css" />
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script src="js/vendor/modernizr.js"></script>
+  </head>
+  <body>
+    <div class="row">
+      <div class="columns large-6 button"></div>
+      <div class="columns large-6 button success"></div>
+      <div class="columns medium-6 button info"></div>
+      <div class="columns medium-6 button danger"></div>
+      <div class="columns small-6 button warning">
+        <a class="button success"></a>
+      </div>
+      <div class="columns small-6 button success panel radius">
+        <a class="button">HEADER</a>
+        <a class="button secondary radius">HEADER</a>
+        <a class="button alert round">HEADER</a>
+
+      </div>
+       <div class="columns small-6 callout panel">
+        <a class="label">HEADER</a>
+        <a class="label secondary radius">HEADER</a>
+        <a class="label alert round">HEADER</a>
+
+      </div>
+
+      <div class="progress alert radius columns small-12">
+        <span class="meter" style="width:70%"></span>
+      </div>
+      <div class="progress columns small-12">
+        <span class="meter" style="width:70%"></span>
+      </div>
+      <div class="progress round success columns small-12">
+        <span class="meter" style="width:70%"></span>
+      </div>
+
+
+      <ul class="clearing-thumbs" data-clearing>
+        <li><a href="http://www.runoob.com/try/demo_source/rock600x400.jpg" class="th"><img src="http://www.runoob.com/try/demo_source/rock200x100.jpg"></a></li>
+        <li><a href="http://www.runoob.com/try/demo_source/skies600x400.jpg" class="th"><img src="http://www.runoob.com/try/demo_source/skies200x100.jpg"></a></li>
+        <li><a href="http://www.runoob.com/try/demo_source/lights600x400.jpg" class="th"><img src="http://www.runoob.com/try/demo_source/lights200x100.jpg"></a></li>
+      </ul>
+
+      <div class="label alert">dee3eb</div>
+
+      <!-- Trigger the Dropdown -->
+      <button class="warning split">Dropdown Button
+        <a href="#" data-dropdown="id01" data-options="align:top;is_hover:true;" class="button dropdown"></a>
+      </button>
+
+      <!-- Dropdown content -->
+      <!-- <ul id="id01" data-dropdown-content class="f-dropdown tiny content">
+        <li><a href="#">Link 1</a></li>
+        <li><a href="#">Link 2</a></li>
+        <li><a href="#">Link 3</a></li>
+      </ul> -->
+      <div id="id01" data-dropdown-content class="f-dropdown medium">
+        <h4>Paris Title</h4>
+        <p>Some text.. some text..</p>
+        <img src="http://www.runoob.com/try/demo_source/paris.jpg" alt="Paris" width="400" height="300">
+        <p>Paris, je t'aime.</p>
+      </div>
+
+      <div class="large-6 columns">
+        <div class="row collapse postfix-radius">
+          <div class="small-9 columns">
+            <input type="text" placeholder="Value">
+          </div>
+          <div class="small-3 columns">
+            <a class="button postfix">Postfix</a>
+          </div>
+        </div>
+      </div>
+
+     <!--  <ul class="accordion" data-accordion>
+       <li class="accordion-navigation">
+         <a href="#demo">手风琴实例 1</a>
+         <div id="demo" class="content active">
+           Demo 1 - 菜鸟教程 -- 学的不仅是技术，更是梦想！！！
+         </div>
+       </li>
+       <li class="accordion-navigation">
+         <a href="#demo2">手风琴实例 2</a>
+         <div id="demo2" class="content">
+           Demo 2 - Lorem ipsum dolor sit amet....
+         </div>
+       </li>
+       <li class="accordion-navigation">
+         <a href="#demo3">手风琴实例 3</a>
+         <div id="demo3" class="content">
+           Demo 3 - 菜鸟教程 -- 学的不仅是技术，更是梦想！！！
+         </div>
+       </li>
+     </ul> -->
+      <hr>
+       <ul class="accordion" data-accordion>
+        <li class="accordion-navigation">
+          <a href="#demo">Simple Collapsible</a>
+          <div id="demo" class="content">
+            菜鸟教程 -- 学的不仅是技术，更是梦想！！！
+          </div>
+        </li>
+        <li class="accordion-navigation">
+          <a href="#demo2">Simple Collapsible</a>
+          <div id="demo2" class="content">
+            菜鸟教程2 -- 学的不仅是技术，更是梦想！！！
+          </div>
+        </li>
+         <li class="accordion-navigation">
+          <a href="#demo3">Simple Collapsible</a>
+          <div id="demo3" class="content">
+            菜鸟教程2 -- 学的不仅是技术，更是梦想！！！
+          </div>
+        </li>
+      </ul>
+
+
+      <!-- Trigger the Modal -->
+      <button type="button" class="button" data-reveal-id="myModal">Click To Open Modal</button>
+
+      <!-- The Modal Content -->
+      <div id="myModal" class="reveal-modal" data-reveal>
+        <h2>Heading in Modal.</h2>
+        <p>Some text in the modal.</p>
+        <p>Some text in the modal.</p>
+        <a class="close-reveal-modal">&times;</a>
+      </div>
+
+
+      <!-- 初始化 Foundation JS -->
+      <script>
+      $(document).ready(function() {
+          $(document).foundation();
+      })
+      </script>
+
+    </div>
+  </body>
+  <script type="text/javascript">
+    $(document).foundation();
+  </script>
+</html>
+

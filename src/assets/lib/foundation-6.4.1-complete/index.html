@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foundation for Sites</title>
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/app.css">
+    <script type="text/javascript" src="js/vendor/jquery.js"></script>
+    <script type="text/javascript" src="js/vendor/foundation.min.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+  </head>
+  <body>
+    <div class="row">
+      <div class="medium-12 columns">
+        <div class="panel">
+          <h1>Foundation 页面<small>小字</small></h1>
+          <p>重置窗口大小，查看效果！</p>
+          <button type="button" class="button small">我是按钮!</button>
+          <a href="http://music.163.com" target="_blank">这是一个a标签</a>
+          <p>这是 <abbr title="World Health Organization">一个abbr</abbr> 标签。</p>
+
+          <blockquote>
+            <p>学的不仅是技术，更是梦想！</p>
+            <cite>菜鸟教程</cite>
+          </blockquote>
+
+          <code>代码条块</code>
+
+          <p>按下 <kbd>ctrl + p</kbd> 键打开打印窗口。</p>
+          <hr>
+
+          <div class="progress">
+            <span class="meter" style="width:50%"></span>
+          </div>
+
+          <div class="progress secondary radius">
+            <span class="meter" style="width:60%"></span>
+          </div>
+
+          <div class="progress success round">
+            <span class="meter" style="width:70%"></span>
+          </div>
+
+          <div class="progress alert">
+            <span class="meter" style="width:80%"></span>
+          </div>
+
+
+
+        </div>
+      </div>
+    </div>
+
+    <div class="grid-x grid-padding-x row">
+      <div class="medium-6 columns" style="background-color:yellow;">菜鸟教程</div>
+        <div class="medium-6 columns" style="background-color:pink;">菜鸟教程</div>
+      <div class="small-3 medium-3 large-3 columns cell">
+        <button class="button success">one</button>
+      </div>
+      <div class="small-3 medium-3 large-3 columns cell">
+        <button class="button warning"></button>
+      </div>
+      <div class="small-3 medium-3 large-3 columns cell">
+        <button type="button" class="button">Default</button>
+        <button type="button" class="button secondary">Secondary</button>
+        <button type="button" class="button success">Success</button>
+        <button type="button" class="button info">Info</button>
+        <button type="button" class="button warning">Warning</button>
+        <button type="button" class="button alert">Alert</button>
+      </div>
+      <div class="small-3 medium-3 large-3 columns cell">
+        <button type="button" class="button">Default</button>
+        <button type="button" class="button secondary">Secondary</button>
+        <button type="button" class="button success">Success</button>
+        <button type="button" class="button info">Info</button>
+        <button type="button" class="button warning">Warning</button>
+        <button type="button" class="button alert">Alert</button>
+      </div>
+    </div>
+
+    <button type="button" class="button" data-reveal-id="myModal">Click To Open Modal</button>
+
+    <!-- The Modal Content -->
+    <div id="myModal" class="reveal-modal" data-reveal>
+      <h2>Heading in Modal.</h2>
+      <p>Some text in the modal.</p>
+      <p>Some text in the modal.</p>
+      <a class="close-reveal-modal">&times;</a>
+    </div>
+
+    <!-- Initialize Foundation JS -->
+    <script>
+    $(document).ready(function() {
+        $(document).foundation();
+    })
+    </script>
+  </body>
+</html>
